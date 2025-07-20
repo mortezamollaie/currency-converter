@@ -44,7 +44,7 @@ currency-converter/
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/your-username/currency-converter.git
+git clone https://github.com/mortezamollaie/currency-converter.git
 cd currency-converter
 ```
 
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 ## 🧠 How It Works
 
 - `constants.py`: Contains a list of supported currencies (`CURRENCIES`).
-- `main.py`: Contains:
+- `currency_converter.py`: Contains:
   - `get_exchange_rate(base, target)` – Fetches exchange rate from API.
   - `convert_currency(amount, rate)` – Simple multiplication.
 - `app.py`: The Streamlit frontend UI, calls functions and renders output.
