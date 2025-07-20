@@ -1,6 +1,6 @@
 import streamlit as st
 from constants import CURRENCIES
-from main import get_exchange_rate, convert_currency
+from currency_converter import get_exchange_rate, convert_currency
 
 st.title(':dollar: Currency Converter')
 

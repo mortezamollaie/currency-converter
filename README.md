@@ -18,11 +18,13 @@ A simple, real-time currency converter built with [Streamlit](https://streamlit.
 
 ```
 currency-converter/
-├── constants.py         # List of available currencies
-├── main.py              # Core logic: fetching rates & converting
-├── app.py               # Streamlit UI logic
-├── requirements.txt     # List of Python dependencies
-└── README.md            # Project documentation (this file)
+├── src/
+│   ├── app.py                  # Streamlit UI logic
+│   ├── constants.py            # List of available currencies
+│   └── currency_converter.py   # Core logic: fetching rates & converting
+│
+├── requirements.txt            # List of Python dependencies
+└── README.md                   # Project documentation (this file)
 ```
 
 ---
